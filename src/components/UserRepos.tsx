@@ -132,7 +132,6 @@ const UserRepos = () => {
             <DialogTitle>Commits for {selectedRepo?.name}</DialogTitle>
           </DialogHeader>
           {selectedRepo && <CommitChart repo={selectedRepo} />}
-          {/* {selectedRepo && <CommitChart/>} */}
         </DialogContent>
       </Dialog>
     </div>

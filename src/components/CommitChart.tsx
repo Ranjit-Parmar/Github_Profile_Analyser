@@ -54,9 +54,6 @@ const CommitChart = ({ repo }: Props) => {
         })
       );
 
-      // Optional: Sort by date
-      formattedData.sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
-
       setChartData(formattedData);
     } catch (error) {
       console.error("Error fetching commits:", error);

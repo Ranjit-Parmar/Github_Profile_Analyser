@@ -1,5 +1,5 @@
 
-// Type for individual GitHub repository
+// Type for GitHub repository
 export interface Repository {
     id: number;
     name: string;
@@ -14,7 +14,7 @@ export interface Repository {
     pushed_at: string;
   }
   
-  // Type for individual GitHub commit
+  // Type for GitHub commit
   export interface Commit {
     sha: string;
     commit: {
@@ -33,7 +33,7 @@ export interface Repository {
   
   // Type for GitHub user profile details
   export interface UserProfile {
-    login: string; // GitHub username
+    login: string;
     id: number;
     avatar_url: string;
     repos_url: string;
