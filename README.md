@@ -28,7 +28,7 @@ This application is built using:
 ## Installation
 
 ### 1. Clone the repository
-git clone https://github.com/ranjit-parmar/Github_Profile_Analyzer.git
+git clone https://github.com/Ranjit-Parmar/Github_Profile_Analyzer.git
 cd Github_Profile_Analyzer
 
 ### 2.  Install dependencies
